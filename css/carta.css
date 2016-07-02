@@ -1,0 +1,490 @@
+#content{
+	padding-bottom: 40px;
+}
+
+.content-comidas{
+	background-color: #fff;
+    width: 80%;
+    -webkit-box-shadow: 0px -7px 25px 5px rgb(153,51,0);
+       -moz-box-shadow: 0px -7px 25px 5px rgb(153,51,0);
+            box-shadow: 0px -7px 25px 5px rgb(153,51,0);
+    margin: auto;
+}
+
+.multiprec{
+	width: 98% !important;
+}
+
+.precios{
+	height: 100%;
+	float: right;
+}
+
+.com-tipo{
+	height: 150px;
+	border-bottom: 1px dashed black;
+}
+
+.multiprec .com-tipo{
+	height: 120px;
+}
+
+.img-comida img{
+	height: 100%;
+	width: 200px;
+	-webkit-box-shadow: 0px 7px 25px -5px #fff;
+       -moz-box-shadow: 0px 7px 25px -5px #fff;
+            box-shadow: 0px 7px 25px -5px #fff;
+    margin: 2px;
+}
+
+.multiprec img{
+	width: 150px;
+}
+
+#comida span{
+	display: inline-block;
+}
+
+.texto-com{
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.tit-comida{
+	font-family: 'Bickley';
+	font-size: 35px;
+}
+
+.multiprec .tit-comida{
+	margin-top: 0px;
+	font-size: 30px;
+}
+
+.desc-comida{
+	font-size: 20px;
+	color: #666;
+	font-style: italic;
+	margin-left: 15px;
+}
+
+.multiprec .desc-comida{
+	max-width: 350px;
+}
+
+.prec-comida{
+	height: 100%;
+	width: 200px;
+	float: right;
+	font-size: 30px;
+	text-align: center;
+	padding: 50px 0px;
+	border-left: 1px dotted black;
+}
+
+.multiprec .prec-comida{
+	width: 160px;
+	font-size: 25px;
+	padding: 0;
+}
+
+.tit-multiprec{
+	font-size: 20px;
+	font-style: italic;
+}
+
+.prec-multiprec{
+	margin-top: 20px;
+}
+
+@media (max-width: 1200px) and (min-width: 1000px){
+	.com-tipo{
+		height: 120px;
+	}
+
+	.tit-comida{
+		font-size: 30px;
+	}
+
+	.desc-comida{
+		font-size: 20px;
+	}
+
+	.prec-comida{
+		width: 150px;
+		font-size: 20px;
+		padding: 45px 0px;
+	}
+
+	.multiprec .texto-com{
+		margin-left: 15px;
+	}
+
+	.multiprec .tit-comida{
+		font-size: 25px;
+	}
+
+	.multiprec .prec-comida{
+		width: 110px;
+		font-size: 22px;
+	}
+
+	.tit-multiprec{
+		font-size: 19px;
+	}
+}
+
+@media (max-width: 1000px) and (min-width: 850px){
+	.com-tipo{
+		height: 100px;
+	}
+
+	.img-comida img{
+		width: 150px;
+	}
+
+	.tit-comida{
+		font-size: 25px;
+	}
+
+	.multiprec .texto-com{
+		margin-left: 10px;
+	}
+
+	.multiprec .tit-comida{
+		font-size: 20px;
+	}
+
+	.desc-comida{
+		font-size: 15px;
+	}
+
+	.multiprec .prec-comida{
+		width: 100px;
+		font-size: 19px;
+	}
+
+	.tit-multiprec{
+		font-size: 17px;
+	}
+
+	.prec-comida{
+		width: 100px;
+		font-size: 17px;
+		padding: 40px 0px;
+	}
+}
+
+@media (max-width: 850px) and (min-width: 700px){
+	.content-comidas{
+		width: 85%;
+	}
+
+	.com-tipo{
+		height: 100px;
+	}
+
+	.texto-com{
+		margin-left: 25px;
+		margin-top: 7px;
+	}
+
+	.img-comida img{
+		width: 150px;
+	}
+
+	.tit-comida{
+		font-size: 23px;
+	}
+
+	.desc-comida{
+		font-size: 14px;
+	}
+
+	.prec-comida{
+		width: 100px;
+		font-size: 17px;
+		padding: 40px 0px;
+	}
+
+	.multiprec .texto-com{
+		margin-left: 8px;
+	}
+
+	.multiprec .tit-comida{
+		font-size: 18px;
+	}
+
+	.multiprec .prec-comida{
+		width: 85px;
+		font-size: 16px;
+	}
+
+	.tit-multiprec{
+		font-size: 16px;
+	}
+
+	.multiprec .com-tipo{
+		height: 100px;
+	}
+}
+
+@media (max-width: 700px) and (min-width: 600px){
+	.content-comidas{
+		width: 90%;
+	}
+
+	.com-tipo{
+		height: 100px;
+	}
+
+	.texto-com{
+		margin-left: 20px;
+		margin-top: 5px;
+	}
+
+	.img-comida img{
+		width: 150px;
+	}
+
+	.tit-comida{
+		font-size: 20px;
+	}
+
+	.desc-comida{
+		font-size: 13px;
+	}
+
+	.prec-comida{
+		width: 90px;
+		font-size: 16px;
+		padding: 35px 0px;
+	}
+
+	.multiprec .texto-com{
+		margin-left: 8px;
+	}
+
+	.multiprec .tit-comida{
+		font-size: 18px;
+	}
+
+	.multiprec .prec-comida{
+		width: 140px;
+		height: 33px;
+		font-size: 16px;
+		float: none;
+		display: block !important;
+		margin: 0;
+		padding: 0;
+	}
+
+	.tit-multiprec{
+		font-size: 16px;
+		display: inline-block;
+		float: left;
+		margin-left: 2px;
+	}
+
+	.prec-multiprec{
+		display: inline-block;
+		margin: 0;
+		float: right;
+		margin-right: 2px;
+	}
+
+	.multiprec .com-tipo{
+		height: 100px;
+	}
+}
+
+@media (max-width: 600px) and (min-width: 450px){
+	.content-comidas{
+		width: 95%;
+	}
+
+	.com-tipo{
+		height: 100px;
+	}
+
+	.texto-com{
+		margin-left: 20px;
+		margin-top: 5px;
+	}
+
+	.img-comida img{
+		width: 120px;
+	}
+
+	.tit-comida{
+		font-size: 20px;
+	}
+
+	.desc-comida{
+		font-size: 13px;
+	}
+
+	.prec-comida{
+		width: 90px;
+		font-size: 16px;
+		padding: 35px 0px;
+	}
+
+	.multiprec .img-comida img{
+		height: 90%;
+	}
+
+	.multiprec .tit-comida, .multiprec .img-comida{
+		display: block !important;
+		float: none;
+	}
+
+	.multiprec .img-comida{
+		width: 120px;
+		margin-left: 100px;
+		margin-right: 0;
+	}
+
+	.multiprec .tit-comida{
+		font-size: 17px;
+		height: 25px;
+	}
+
+	.multiprec .prec-comida{
+		width: 120px;
+		height: 33px;
+		font-size: 15px;
+		float: none;
+		display: block !important;
+		margin: 0;
+		padding: 0;
+	}
+
+	.biprec .prec-comida{
+		height: 50px !important;
+		padding-top: 10px;
+	}
+
+	.tit-multiprec{
+		font-size: 15px;
+		display: inline-block;
+		float: left;
+		margin-left: 2px;
+	}
+
+	.prec-multiprec{
+		display: inline-block;
+		margin: 0;
+		float: right;
+		margin-right: 2px;
+	}
+
+	.multiprec .com-tipo{
+		height: 100px;
+	}
+
+	.precios{
+		margin-top: -31px;
+	}
+
+	.prec1{
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 450px){
+	.content-comidas{
+		width: 95%;
+	}
+
+	.com-tipo{
+		height: 90px;
+	}
+
+	.texto-com{
+		margin-left: 15px;
+		margin-top: 5px;
+	}
+
+	.img-comida img{
+		width: 100px;
+	}
+
+	.tit-comida{
+		font-size: 18px;
+	}
+
+	.desc-comida{
+		font-size: 12px;
+	}
+
+	.prec-comida{
+		width: 80px;
+		font-size: 15px;
+		padding: 30px 0px;
+	}
+
+	.multiprec .img-comida img{
+		height: 90%;
+	}
+
+	.multiprec .tit-comida, .multiprec .img-comida{
+		display: block !important;
+		float: none;
+	}
+
+	.multiprec .img-comida{
+		width: 120px;
+		margin-left: 80px;
+		margin-right: 0;
+	}
+
+	.multiprec .texto-com{
+		margin-left: 4px;
+	}
+
+	.multiprec .tit-comida{
+		font-size: 17px;
+	}
+
+	.multiprec .prec-comida{
+		width: 115px;
+		height: 33px;
+		font-size: 15px;
+		float: none;
+		display: block !important;
+		margin: 0;
+		padding: 0;
+	}
+
+	.biprec .prec-comida{
+		height: 50px !important;
+		padding-top: 10px;
+	}
+
+	.tit-multiprec{
+		font-size: 15px;
+		display: inline-block;
+		float: left;
+		margin-left: 2px;
+	}
+
+	.prec-multiprec{
+		display: inline-block;
+		margin: 0;
+		float: right;
+		margin-right: 2px;
+	}
+
+	.multiprec .com-tipo{
+		height: 100px;
+	}
+
+	.precios{
+		margin-top: -31px;
+	}
+
+	.prec1{
+		margin-top: 10px;
+	}
+}

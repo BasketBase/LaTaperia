@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'Bickley';
+    src: url('../fonts/BickleyScriptPlain.otf');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Times New Roman";
+}
+
+a{
+	color: #eee;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #eee;
+	text-decoration: none;
+}
+
+#nav-main{
+	height: 80px;
+	background-color: #620;
+	-webkit-box-shadow: 0px 7px 25px 5px rgb(153,51,0);
+       -moz-box-shadow: 0px 7px 25px 5px rgb(153,51,0);
+            box-shadow: 0px 7px 25px 5px rgb(153,51,0);
+    padding-left: 5%;
+    text-align: center;
+}
+
+#nav-main .active{
+	background-color: #fec !important;
+	color: #620 !important;
+	text-shadow: 1px 1px 5px #000;
+	cursor: initial !important;
+}
+
+#nav-main a{
+	position: absolute;
+	padding: 25px;
+	left: 30px;
+	z-index: 100;
+	height: 80px;
+	width: 16%;
+	color: #fff;
+	font-size: 20px;
+}
+
+#nav-main a:hover{
+	background-color: #fec;
+	color: #620;
+	text-shadow: 1px 1px 5px #000;
+	text-decoration: none;
+}
+
+#nav-main a img{
+	height: 80px;
+	margin-top: -25px;
+}
+
+.nav-main-e1{
+	margin-left: 5% !important;
+}
+
+.nav-main-e2{
+	margin-left: 20% !important;
+}
+
+.nav-main-e3{
+	margin-left: 35% !important;
+}
+
+.nav-main-e4{
+	margin-left: 50% !important;
+}
+
+.nav-main-e5{
+	margin-left: 65% !important;
+}
+
+.nav-main-e6{
+	margin-left: 80% !important;
+}
+
+#nav-hidden-min{
+	display: none;
+	color: #fff;
+	font-size: 35px;
+	width: 100px;
+	height: 99%;
+	float: right;
+	padding-top: 23px;
+	background-color: #620;
+}
+
+.nav-hidden-elem{
+	display: block !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	padding-top: 10px !important;
+	position: absolute !important;
+	float: left !important;
+	top: 80px !important;
+	z-index: 100 !important;
+	width: 90% !important;
+	background-color: #620 !important;
+	border: 1px solid #930 !important;
+	height: 50px !important;
+}
+
+.nav-hidden-elem:hover{
+	background-color: #fec !important;
+	text-shadow: 1px 1px 5px #000 !important;
+	color: #620 !important;
+}
+
+#content{
+	background-color: #fec;
+	position: absolute;
+    top: 80px;
+    width: 100%;
+    min-height: 100%;
+}
+
+.tit-main{
+	color: #C30;
+	font-family: 'Bickley';
+	text-shadow: 1px 1px 5px #000;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin: 50px;
+}
+
+@media (max-width: 850px){
+	#nav-main{
+		height: 80px;
+		padding-left: 4%;
+		padding-right: 0;
+		cursor: pointer;
+	}
+
+	#nav-main a{
+		display: none;
+	}
+
+	.nav-main-e2{
+		margin-top: 50px !important;
+	}
+
+	.nav-main-e3{
+		margin-top: 100px !important;
+	}
+
+	.nav-main-e4{
+		margin-top: 150px !important;
+	}
+
+	.nav-main-e5{
+		margin-top: 200px !important;
+	}
+
+	.nav-main-e6{
+		margin-top: 250px !important;
+	}
+
+	#nav-hidden-min{
+		display: inline-block;
+	}
+}

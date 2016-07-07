@@ -2,6 +2,9 @@
 <html>
 	<head lang="ES">
 		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="theme-color" content="#FEC"/>
+		<link rel="icon" type="image/png" href="/LaTaperia/img/favicon.png" size="192x192"/>
 		<title>La Tapería</title>
 		<script type="text/javascript" src="/LaTaperia/lib/jquery-1.12.3.min.js"></script>
 		<script type="text/javascript" src="/LaTaperia/lib/bootstrap.min.js"></script>

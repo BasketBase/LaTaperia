@@ -15,7 +15,7 @@
 	</head>
 	<body>
 		<div id="nav-main">
-			<a href="/LaTaperia" class="nav-main-e1"><img src="../img/logo.png"></a>
+			<a href="/LaTaperia" class="nav-main-e1"><img src="../img/logoBlanco.png"></a>
 			<a href="/LaTaperia/pages/carta.php" class="nav-main-e2">CARTA</a>
 			<a class="nav-main-e3 active">BODEGA</a>
 			<a href="/LaTaperia/pages/eventos.php" class="nav-main-e4">EVENTOS</a>

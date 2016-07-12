@@ -44,11 +44,11 @@
 							echo '<div class="content-comidas multiprec">';
 						}
 						else{
-							echo '<div class="content-comidas">';
+							echo '<div class="content-comidas multiprec">';
 						}
 						while($row=mysqli_fetch_array($res)){
 							echo 	'<div class="com-tipo">
-										<span class="img-comida"><img src="/img/carta/'.$row["imagen"].'"></span>
+										<span class="img-comida"><img src="../img/carta/'.$row["imagen"].'"></span>
 										<span class="texto-com">';
 
 							if($row["tipo"]==1){

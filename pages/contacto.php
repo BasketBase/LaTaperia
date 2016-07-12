@@ -8,7 +8,9 @@
 		<title>Reservas · La Tapería</title>
 		<script type="text/javascript" src="/LaTaperia/lib/jquery-1.12.3.min.js"></script>
 		<script type="text/javascript" src="/LaTaperia/lib/bootstrap.min.js"></script>
+		<script type="text/javascript" src="/LaTaperia/lib/toastr.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="/LaTaperia/lib/bootstrap.min.css"></link>
+		<link rel="stylesheet" type="text/css" href="/LaTaperia/lib/toastr.min.css"></link>
 		<link rel="stylesheet" type="text/css" href="/LaTaperia/css/styles.css"></link>
 		<link rel="stylesheet" type="text/css" href="/LaTaperia/css/contacto.css"></link>
 		<script type="text/javascript" src="/LaTaperia/js/menu.js"></script>
@@ -16,33 +18,37 @@
 	</head>
 	<body>
 		<div id="nav-main">
-			<a href="/LaTaperia/index.php" class="nav-main-e1"><img src="../img/logo.png"></a>
+			<a href="/LaTaperia/index.php" class="nav-main-e1"><img src="../img/logoBlanco.png"></a>
 			<a href="/LaTaperia/pages/carta.php" class="nav-main-e2">CARTA</a>
 			<a href="/LaTaperia/pages/bodega.php" class="nav-main-e3">BODEGA</a>
 			<a href="/LaTaperia/pages/eventos.php" class="nav-main-e4">EVENTOS</a>
 			<a href="/LaTaperia/pages/reservas.php" class="nav-main-e5">RESERVAS</a>
-			<a  class="nav-main-e6 active">CONTACTO</a>
+			<a class="nav-main-e6 active">CONTACTO</a>
 			<div id="nav-hidden-min" class="glyphicon glyphicon-menu-hamburger"></div>
 		</div>
 		<div id="content">
 			<div id="container">
 				<span id="desc">
 					<div>
-						<span class="glyphicon glyphicon-phone-alt" style="margin-right: 20px;margin-top: 40px"></span><span>981981981</span>
+						<span class="glyphicon glyphicon-phone-alt" style="margin-right: 20px;margin-top: 40px"></span>
+						<span>981981981</span>
 					</div>
 					<div>
-						<span class="glyphicon glyphicon-envelope" style="margin-right: 20px"></span><span>info@restaurantelataperia.com</span>
+						<span class="glyphicon glyphicon-envelope" style="margin-right: 20px"></span>
+						<span>info@restaurantelataperia.com</span>
 					</div>
 					<div>
-						<span class="glyphicon glyphicon-home" style="margin-right: 20px"></span><span>Avda. de Santa Cristina, 24 Bajo, Santa Cristina, 15172 - Oleiros (A Coruña)</span>
+						<span class="glyphicon glyphicon-home" style="margin-right: 20px"></span>
+						<span>Avda. de Santa Cristina, 24 Bajo, Santa Cristina, 15172 - Oleiros (A Coruña)</span>
 					</div>
 					<div>
-						<TextArea style="resize:none" rows="7" cols="107" id="message">Deja tu sugerencia aquí</TextArea>
+						<textarea style="resize:none" id="message" placeholder="Deja tu sugerencia aquí"></textarea>
 					</div>
 					<div>
-						<button onclick="sendMail()">Enviar</button>
+						<button class="enviarSug btn btn-primary">Enviar</button>
 					</div>
 				</span>
+				<span id="imgDesc"></span>
 			</div>
 		</div>
 	</body>

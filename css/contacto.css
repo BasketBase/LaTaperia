@@ -17,8 +17,20 @@
 
 #desc div{
 	margin: 10px;
+	width: 50%;
 }
 
 *, html, body{
 	overflow: hidden !important;
+}
+
+#message{
+	margin-top: 5px;
+	width: 100%;
+	height: 150px;
+}
+
+#imgDesc{
+	width: 50%;
+	background-image: url("../img/slider/1.jpg")
 }

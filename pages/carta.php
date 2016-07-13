@@ -75,16 +75,12 @@
 										</span>
 										<span class="precios">
 											<span class="prec-comida prec1">
-												<div class="tit-multiprec">Tapa</div>
+												<div class="tit-multiprec">½ Tosta</div>
 												<div class="prec-multiprec">'.$row["prec1"].' €</div>
 											</span>
 											<span class="prec-comida prec2">
-												<div class="tit-multiprec">½ Ración</div>
+												<div class="tit-multiprec">Tosta</div>
 												<div class="prec-multiprec">'.$row["prec2"].' €</div>
-											</span>
-											<span class="prec-comida prec3">
-												<div class="tit-multiprec">Ración</div>
-												<div class="prec-multiprec">'.$row["prec3"].' €</div>
 											</span>
 										</span>';
 							}
